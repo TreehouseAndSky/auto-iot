@@ -5,6 +5,7 @@
     "iotHubName": {
       "type": "string",
       "minLength": 3,
+      "defaultValue": "[newGuid()]",
       "metadata": {
         "description": "Specifies the name of the IoT Hub."
       }
